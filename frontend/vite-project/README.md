@@ -1,16 +1,78 @@
-# React + Vite
+**🌐 Expense Tracker Website**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and user-friendly Expense Tracker Website designed to help users manage their income and expenses efficiently, track spending habits, and maintain financial clarity.
 
-Currently, two official plugins are available:
+__🚀 Features__
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add, edit, and delete transactions
 
-## React Compiler
+💰 Track income and expenses separately
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📊 Visualize data using interactive charts
 
-## Expanding the ESLint configuration
+📅 Organized transaction history
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧾 Category-based expense tracking
+
+📱 Fully responsive web design
+
+🧾 Download income and expense history
+
+ __🛠️ Tech Stack__
+
+MERN Stack
+
+User Authentication: JWT authentication
+
+Charts: Recharts
+
+Styling: Tailwind CSS
+
+Database: MongoDB
+
+ __🌍 Live Demo__
+
+Add your deployed website link here
+
+ __📸 Screenshots__
+<img width="1343" height="601" alt="signUp" src="https://github.com/user-attachments/assets/c291a3e1-1e98-44d0-820d-e68802bbbeaf" />
+<img width="1363" height="601" alt="login" src="https://github.com/user-attachments/assets/57afd02d-ce0c-4140-9803-1110300fb365" />
+
+
+
+
+ __⚙️ Installation & Setup__
+```
+# Clone the repository
+git clone https://github.com/your-username/expense-tracker.git```
+
+# Navigate to project folder
+cd expense-tracker
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+ __📁 Folder Structure__ 
+```
+expense-tracker/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── hooks/
+│   ├── context/
+│   ├── utils/
+│── public/
+│── package.json
+```
+
+ __📈 Future Enhancements__
+
+🔐 User authentication & login system  
+
+☁️ Cloud sync for saving user data
+
+🌙 Dark mode support
