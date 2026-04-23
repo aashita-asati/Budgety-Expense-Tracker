@@ -4,11 +4,17 @@ A modern and user-friendly Expense Tracker Website designed to help users manage
 
 🚀 Features
 ➕ Add, edit, and delete transactions
+
 💰 Track income and expenses separately
+
 📊 Visualize data using interactive charts
+
 📅 Organized transaction history
+
 🧾 Category-based expense tracking
+
 📱 Fully responsive web design
+
 🧾 Download income and expense history
 
 🛠️ Tech Stack
@@ -46,12 +52,10 @@ expense-tracker/
 │── src/
 │   ├── components/
 │   ├── pages/
-│   ├── context/
-│   ├── hooks/
-│   ├── assets/
 │   ├── utils/
 │── public/
 │── package.json
+
 📈 Future Enhancements
 🔐 User authentication & login system
 ☁️ Cloud sync for saving user data
