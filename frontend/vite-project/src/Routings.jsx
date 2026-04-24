@@ -1,6 +1,6 @@
 import React from 'react'
 import{
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -14,7 +14,7 @@ import Expense from './pages/Dashboard/Expense';
 const Routings = () => {
   return (
     <div>
-      <Router>
+      <Router basename='/Budgety-Expense-Tracker/'>
         <Routes>
           <Route path='/' element={<Root/>} />
           <Route path='/login' exact element={<Login/>} />
