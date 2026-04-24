@@ -14,7 +14,7 @@ import FinanceOverview from '../../components/Layouts/Dashboard/FinanceOverview'
 import ExpenseTransactions from '../../components/Layouts/Dashboard/ExpenseTransactions';
 import RecentIncomeChart from '../../components/Layouts/Dashboard/RecentIncomeChart';
 import RecentIncome from '../../components/Layouts/Dashboard/RecentIncome';
-import Last30DaysExpenses from '../../components/Layouts/Dashboard/last30DaysExpenses';
+import Last30DaysExpenses from '../../components/Layouts/Dashboard/Last30DaysExpenses';
 
 const Home = () => {
   userUserAuth();
