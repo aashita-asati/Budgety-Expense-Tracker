@@ -14,7 +14,7 @@ import Expense from './pages/Dashboard/Expense';
 const Routings = () => {
   return (
     <div>
-      <Router basename='/Budgety-Expense-Tracker/'>
+      <Router >
         <Routes>
           <Route path='/' element={<Root/>} />
           <Route path='/login' exact element={<Login/>} />
