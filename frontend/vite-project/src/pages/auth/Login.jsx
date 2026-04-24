@@ -20,7 +20,7 @@ const Login = () => {
     e.preventDefault();
 
     const response = await axios.post(
-  "http://localhost:8000/api/v1/auth/login",
+  "https://budgety-expense-tracker.onrender.com/api/v1/auth/login",
   { email, password }
 );
 
