@@ -12,6 +12,10 @@ const app=express();
 
 //middleware
 app.use(express.json());
+
+app.get("/",(req,res) =>{
+    res.send("Backend is running")
+})
 app.use(
     cors({
         origin: process.env.CLIENT_URL || "*",
@@ -21,6 +25,8 @@ app.use(
     })
 )
 connectDB();
+
+
 app.use ("/api/v1/auth", authRoutes);
 app.use("/api/v1/income",incomeRoutes);
 app.use("/api/v1/expense",expenseRoutes);
