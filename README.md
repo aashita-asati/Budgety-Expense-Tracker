@@ -32,7 +32,7 @@ Database: MongoDB
 
  __🌍 Live Demo__
 
-Add your deployed website link here
+https://budgety-expense-tracker-1.onrender.com
 
  __📸 Screenshots__
 <img width="1343" height="601" alt="signUp" src="https://github.com/user-attachments/assets/c291a3e1-1e98-44d0-820d-e68802bbbeaf" />
